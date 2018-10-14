@@ -12,5 +12,8 @@
 */
 
 Route::get('/', 'BlogController@index');
+Route::get('/login', 'BlogController@login');
+Route::get('/register', 'BlogController@register');
+Route::get('/passwordreset', 'BlogController@passwordreset');
 
 // TODO: implement all the routes
